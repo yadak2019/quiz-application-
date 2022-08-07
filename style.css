@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    text-overflow: unset;
+    color: whitesmoke;
+    margin-top: 15%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient( #38A2D7, #561139);
+}
+
+body>h1 {
+    font-size: 60px;
+    color: #561139;
+    text-shadow: 30px 50px 50px 30px;
+}
+
+body>#curse>a>button {
+    margin-top: 50px;
+    padding: 20px 40px;
+    font-size: 40px;
+    border-radius: 10px 25px;
+    border: 1px #38A2D7 solid;
+}
+
+body>#curse>a>#html {
+    background: linear-gradient(rgb(214, 81, 28), rgb(201, 122, 98));
+    color: white;
+}
+
+body>#curse>a>#css {
+    background: linear-gradient(rgb(55, 53, 197), rgb(133, 145, 199));
+    color: white;
+}
+
+body>#curse>a>#js {
+    background: linear-gradient(rgb(236, 216, 31), rgb(228, 213, 145));
+    color: white;
+}
+
+
+/*html*/

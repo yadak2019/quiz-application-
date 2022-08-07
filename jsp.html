@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<bighead>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT</title>
+    <link rel="stylesheet" href="stylejs.css">
+</bighead>
+
+<body>
+    <h1>JAVA SCRIPT QUESTIONS</h1>
+    <table>
+        <div style="float: left;">
+            <div id="q1">
+                Q1:<label id="q" for="q1">Inside ewhat HTML element do we put the ava script</label><br> -
+                <label>&lt;scripting&gt;</label><input type="radio" name="q1"><br> -
+                <label>&lt;script&gt;</label><input type="radio" name="q1" id="correct1"><br> -
+                <label>&lt;jscript&gt;</label><input type="radio" name="q1"><br> -
+                <label>&lt;javascript&gt;</label><input type="radio" name="q1"><br><br>
+            </div>
+
+
+            <div id="q2">
+                Q2:<label id="q" for="q2">How to link external javascript</label><br> -
+                <label>&lt;script location='xxx.js'&gt;</label><input type="radio" name="q2"><br> -
+                <label>&lt;script href'xxx.js'&gt;</label><input type="radio" name="q2"><br> -
+                <label>&lt;script src='xxx.js'&gt;</label><input type="radio" name="q2" id="correct2"><br> -
+                <label>&lt;script link='xxx.js'&gt;</label><input type="radio" name="q2"><br><br>
+            </div>
+
+            <div id="q3">
+                Q3:<label id="q" for="q3">How do you write 'Yadak' in an alert box</label><br> -
+                <label>msg('Yadak')</label><input type="radio" name="q3"><br> -
+                <label>show('Yadak')</label><input type="radio" name="q3"><br> -
+                <label>alert('Yadak')</label><input type="radio" name="q3" id="correct3"><br> -
+                <label>alertbox('Yadak')</label><input type="radio" name="q3"><br><br>
+            </div>
+        </div>
+        <div style="float: right;">
+            <div id="q4">
+                Q4:<label id="q" for="q4">How do you create a function in javascript</label><br> -
+                <label>function .myFunction()</label><input type="radio" name="q4"><br> -
+                <label>function myFunction()</label><input type="radio" name="q4" id="correct4"><br> -
+                <label>function:myFunction()</label><input type="radio" name="q4"><br> -
+                <label>function =myFunction()</label><input type="radio" name="q4"><br><br>
+            </div>
+
+            <div id="q5">
+                Q5:<label id="q" for="q5">How to write an IF statement in javascript</label><br> -
+                <label>if(i==0)</label><input type="radio" name="q5" id="correct5"><br> -
+                <label>if"i==0"go</label><input type="radio" name="q5"><br> -
+                <label>if(i=0)</label><input type="radio" name="q5"><br> -
+                <label>if i = 0 then</label><input type="radio" name="q5"><br><br>
+            </div>
+
+            <div id="q6">
+                Q5:<label id="q" for="q6">Which event wil occurs when the userclicks on HTML element</label><br> -
+                <label>onhtmlclick</label><input type="radio" name="q6"><br> -
+                <label>onclick</label><input type="radio" name="q6" id="correct6"><br> -
+                <label>click</label><input type="radio" name="q6"><br> -
+                <label>clickon</label><input type="radio" name="q6"><br><br>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </table>
+    <a href="index.html"><button class="butt">BACK</button></a>
+    <button class="butt" onclick="js()">SUBMIT</button>
+    <input type="reset" value="CLEAR" class="butt">
+</body>
+<script>
+    function js() {
+        var i = 0
+        if (document.getElementById("correct1").checked) {
+            i++
+        }
+        if (document.getElementById("correct2").checked) {
+            i++
+        }
+        if (document.getElementById("correct3").checked) {
+            i++
+        }
+        if (document.getElementById("correct4").checked) {
+            i++
+        }
+        if (document.getElementById("correct5").checked) {
+            i++
+        }
+        if (document.getElementById("correct6").checked) {
+            i++
+        }
+        if (i == 0) {
+            alert("You fail your score is " + i)
+        }
+        if (i < 4) {
+            alert("Good your score is " + i)
+        }
+        if (i == 5) {
+            alert("Very good your score is " + i)
+        } else if (i == 4) {
+            alert("Very good your score is " + i)
+        }
+        if (i == 6) {
+            alert("Excellent your score is " + i)
+        }
+    }
+</script>
+
+</html>
